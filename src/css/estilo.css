@@ -1,0 +1,18 @@
+:root{
+    --color-primary: purple;
+    --bg-dark: #141414;
+    --text-color: #fff;
+    --btn-color: purple;
+    --header-bg: rgba(0,0,0,0.8);
+    --linear-bg:linear-gradi 
+}
+.logo:hover{
+    letter-spacing: 10px;
+    animation: acender 0.5s forwards;
+}
+@keyframes acender{
+    to{
+        color: var(--text-color);
+        text-shadow: 0 0 10px #7a05ff, 0 0 30px #a8dfe1;
+    }
+}
