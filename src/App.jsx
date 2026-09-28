@@ -25,7 +25,7 @@ const App = () => {
         </div>
       </Router>
 
-
+      <GameCard />
       <Footer />
 
     </>
