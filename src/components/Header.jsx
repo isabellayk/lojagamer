@@ -9,16 +9,16 @@ const Header = () => {
       <nav> 
         <ul className='flex list-none items-center gap-8'>
           <li>
-              <Link to="/" className='text-white text-lg no-underline hover:text-[#6106b6] hover:uppercase transition-all'>Home</Link>
+              <Link to="/" className='text-white text-lg no-underline hover:text-[#6106b6] hover:underline transition-all'>Home</Link>
           </li>
           <li>
-              <Link to="/jogos" className='text-white text-lg no-underline hover:text-[#6106b6] hover:uppercase transition-all'>Jogos</Link>
+              <Link to="/jogos" className='text-white text-lg no-underline hover:text-[#6106b6] hover:underline transition-all'>Jogos</Link>
           </li>
           <li>
-              <Link to="/contato" className='text-white text-lg no-underline hover:text-[#6106b6] hover:uppercase transition-all'>Contato</Link>
+              <Link to="/contato" className='text-white text-lg no-underline hover:text-[#6106b6] hover:underline transition-all'>Contato</Link>
           </li>
           <li>
-              <Link to="/login" className='text-white text-lg no-underline hover:text-[#6106b6] hover:uppercase transition-all'>Login</Link>
+              <Link to="/login" className='text-white text-lg no-underline hover:text-[#6106b6] hover:underline transition-all'>Login</Link>
           </li>
         </ul>
       </nav>
